@@ -1,0 +1,191 @@
+body {
+  font-family: monospace;
+  background-color: #8c7092d5;
+  margin: 0;
+  padding: 0;
+}
+
+
+#logo-image {
+  width: 30px;
+  margin-right: 10px;
+}
+
+/* Add your own custom styles here */
+
+.title {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 2px black solid;
+  border-radius: 10px;
+  background-color: white;
+  margin: 3%;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a :hover {
+  cursor: pointer;
+}
+
+.book-container {
+  width: 80%;
+  margin-left: 10%;
+  padding: 0;
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  flex-wrap: wrap;
+  margin: 1%;
+  align-items: center;
+  border: 1px black solid;
+  padding: 1%;
+}
+
+.book-covers {
+  width: 45%;
+  align-content: center;
+}
+
+.book-details-container {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  padding: 0;
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30%;
+  margin: 1%;
+  align-items: center;
+  padding: 1%;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.search {
+  width: 80%;
+  margin-left: 10%;
+  padding: 0;
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.profile-card {
+  width: 80%;
+  margin-left: 10%;
+  padding: 0;
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.profile-contents {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1%;
+  align-items: center;
+  padding: 1%;
+}
+
+.login-container {
+  width: 80%;
+  margin-left: 7%;
+  padding: 3%;
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.login-contents {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 1%;
+  align-items: center;
+  padding: 1%;
+}
+
+.reserved-books {
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+  align-items: center;
+  padding: 1%;
+}
+
+.profile-title {
+  font-weight: bold;
+}
+
+.no-reservations {
+  font-weight: bold;
+  background-color: rgb(221, 155, 155);
+  padding: 5px;
+}
+
+.book-text {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.available {
+  background-color: rgb(157, 226, 157);
+  text-align: center;
+  padding: 3px;
+}
+
+.not-available {
+  background-color: rgb(214, 141, 147);
+  text-align: center;
+  padding: 3px;
+}
+
+.search-label {
+  font-size: 1.5em;
+}
